@@ -1,47 +1,65 @@
-# Retail Sales Data Analytics
+# Retail Sales Data Analytics Project
 
 ## Project Overview
-This project aims to analyze retail sales data to identify sales trends, product performance, customer behavior, and regional performance. The project applies data analytics techniques to transform raw data into meaningful business insights.
+This project explores retail sales data and presents key metrics and patterns in a Power BI dashboard. It covers data preparation, exploratory data analysis (EDA), visualization, and business recommendations.
 
 ## Problem Statement
-Retail businesses generate large amounts of sales data. Without proper analysis, it can be difficult to identify high-performing product categories, understand sales trends, and make data-driven decisions. This project addresses these challenges through exploratory data analysis and interactive business intelligence dashboards.
+Retail teams need to understand sales across product categories, regions, customer segments, and time. This project organizes available sales data and visualizes key metrics to support evidence-based decisions.
 
-## Objectives
-- Inspect and prepare a retail sales dataset.
-- Identify and handle missing values and duplicate records.
-- Perform exploratory data analysis (EDA).
-- Create meaningful visualizations.
-- Develop an interactive Power BI dashboard.
-- Generate business insights and recommendations.
-- Document the project and its workflow.
+## Dataset
+The project folder contains sales, product, and customer CSV files, including:
+- `Sales_Raw.csv` and `Sales_Clean.csv`
+- `Products.csv` and `Products_Clean.csv`
+- `Customers.csv` and `Customers_Clean.csv`
 
-## Tools and Technologies
-- Python
-- Pandas and NumPy
-- Matplotlib and Seaborn
-- Jupyter Notebook
-- Microsoft Power BI
-- Git and GitHub
+Document the original source URL and accurately identify the data as public real-world, sample, or synthetic data. Do not claim that it represents a real company unless the source verifies that.
 
-## Project Workflow
-1. Dataset Selection
-2. Data Inspection and Cleaning
-3. Exploratory Data Analysis
-4. Data Visualization
-5. Power BI Dashboard Development
-6. Business Insights and Recommendations
-7. Documentation and Presentation
+## Tools
+- Microsoft Excel
+- Power Query
+- Microsoft Power BI Desktop
+- GitHub web interface
 
-## Expected Deliverables
-- Dataset and cleaned dataset
-- Python notebook for data analysis
-- At least five visualizations
-- Power BI dashboard
-- Business insights and recommendations
-- Project documentation and presentation
+## Data Preparation
+The workflow includes reviewing data types, inspecting missing values, checking duplicate identifiers, and preparing the sales, product, and customer tables. Confirm exact transformations and row counts from the final files before documenting them as facts.
 
-## Project Status
-Repository created. Dataset preparation and analysis are in progress.
+## Exploratory Data Analysis
+The analysis covers descriptive statistics, data quality, sales by category, monthly sales trends, sales by region, sales by customer segment, and potential relationships/outliers where appropriate. Final numerical findings should be calculated from the cleaned dataset.
+
+## Power BI Dashboard
+KPI cards:
+- Total Sales
+- Total Orders
+- Total Profit
+
+Visuals:
+1. Sales by Category
+2. Monthly Sales Trend
+3. Sales by Region
+4. Sales by Customer Segment
+
+Date and region slicers allow filtering.
+
+## Business Insights
+Add five verified findings from the final dashboard and EDA. Check category performance, monthly highs/lows, regional contribution, customer-segment performance, and data quality. Do not report unverified rankings or numeric results as facts.
+
+## Recommendations
+1. Use verified category and regional performance to guide inventory and marketing decisions.
+2. Use the confirmed monthly trend for inventory and campaign planning, without assuming seasonality unless supported by the data.
 
 ## Conclusion
-The project will demonstrate an end-to-end data analytics workflow and the use of data-driven insights to support retail business decisions.
+The project demonstrates how data preparation, exploratory analysis, and Power BI visualizations can summarize retail sales performance. Conclusions should be supported by calculated results from the cleaned data.
+
+## Repository Structure
+```text
+retail-sales-data-analytics/
+├── dataset/
+├── visualizations/
+├── Retail_Sales_Dashboard.pbix
+├── EDA_Report.docx
+├── EDA_Report.md
+└── README.md
+```
+
+## Limitations
+The data source and provenance must be confirmed. Findings are limited to the available columns and time period, and correlation does not imply causation.
